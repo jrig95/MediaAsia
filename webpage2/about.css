@@ -1,0 +1,629 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.pages{
+    margin: 0;
+    padding: 0;
+}
+
+.page1 {
+    font-family:  'Manrope', sans-serif;
+    background: #F8CCAB;
+    min-height: 758px; 
+}
+
+.wrapper{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 48px; */
+    padding-top: 20px;
+    
+}
+
+nav ul{
+    display: flex;
+}
+
+nav .logo-container{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav .logo-container img{
+    width: 48px;
+    height: 48px;
+}
+
+nav .logo-container p {
+    padding: 0;
+    font-size: 20px;
+    color: #F95015;
+    font-family:  'Manrope', sans-serif;
+    font-weight: 700;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-items li {
+    list-style: none;
+    margin-right: 40px;
+    font-size: 20px;
+    font-family:  'Manrope', sans-serif;
+    font-weight: 500;
+}
+
+.nav-items li:nth-last-of-type(1){
+    margin: 0;
+}
+
+.home {
+    color: #F9480B;
+}
+
+.about{
+    color: #FE7C54;
+}
+
+.gallery{
+    color: #FE7C54;
+}
+
+.testimonial{
+    color: #FE7C54;
+}
+
+.contact{
+    color: #FE7C54;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.doge-container h1 {
+    font-family:  'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+}
+
+.doge-container h2{
+    font-family:  'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    padding-top: 4rem;
+    padding-bottom: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 1300px;
+}
+
+.doge-picture{
+    position: absolute;
+    top: 235px;
+}
+
+.doge-picture img{
+    height: 442px;
+}
+
+/*nav-bar*/
+
+.sub-header{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.sub-header nav{
+    max-width: 1200px;
+    padding-left: 16px;
+    padding-top: 10px;
+}
+
+.sub-header li{
+    list-style: none;
+    margin-right: 40px;
+    font-size: 13px;
+    font-family:  'Manrope', sans-serif;
+    font-weight: 800;
+}
+
+.sub-header button{
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    padding-left: 27px;
+    padding-top: 8px;
+    padding-right: 27px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    background-color: #BA723D;
+    color: white;
+    border: none;
+    display: flex;
+}
+
+.sub-header p{
+    padding-left: 10px;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+.sub-header a {
+    color: #BA723D;
+}
+
+
+/*page2*/
+.page2{
+    min-height: 842px;
+    background-color: #FBEBE0;
+}
+
+.lorem-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 36px;
+
+}
+
+.introduction-header {
+    max-width: 318px;
+    margin-left: 60px;
+    margin-right: 152px;
+    padding-top: 120px;
+}
+
+.introduction-header h2 {
+    font-size: 16px;
+    font-family:  'Manrope', sans-serif;
+    font-weight: 700;
+    color: #0D1A20;
+    padding-bottom: 35px;
+}
+
+.introduction-header p {
+    font-size: 15px;
+    font-family:  'Manrope', sans-serif;
+    font-weight: 400;
+    color: #0D1A20;
+}
+
+.intro-container h1{
+    padding-left: 175px;
+    padding-top: 118px;
+    padding-bottom: 10px;
+    font-size: 32px;
+    font-family:  'Manrope', sans-serif;
+    font-weight: 800;
+    color: #BA723D;
+}
+
+
+
+
+
+/*page3*/
+
+.page3{
+    min-height: 842px;
+    background-color: #FFFFFF;
+}
+
+.services-container1 {
+    display: grid;
+    grid-template-columns: 536px 536px;
+    row-gap: 60px;
+    column-gap: 0px;
+    padding-left: 20%;
+}
+
+.grid-box {
+    display: flex;
+}
+
+.grid-box img {
+    padding-right: 25px;
+}
+
+
+
+.services h1 {
+    padding-top: 120px;
+    padding-left: 180px;
+    padding-bottom: 150px;
+    font-size: 32px;
+    font-family:  'Manrope', sans-serif;
+    font-weight: 800;
+    color: #BA723D;
+}
+
+.inside-info h1 {
+    font-size: 16px;
+    font-family:  'Manrope', sans-serif;
+    font-weight: 700;
+    color: #BA723D;
+    width: 221px;
+    overflow-wrap: break-word;
+    padding-bottom: 10px;
+}
+
+
+.inside-info h2 {
+    font-size: 15px;
+    font-family:  'Manrope', sans-serif;
+    font-weight: 400;
+    color: #0D1A20;
+    width: 341px;
+    line-height: 1.5;
+}
+
+
+
+/*page4*/
+.page4{
+    min-height: 842px;
+    background-color: #0D1A20;
+}
+
+.client-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1325px;
+    align-items: center;
+    padding-top: 142px;
+    padding-left: 180px;
+}
+
+.clients h1{
+    padding-top: 120px;
+    padding-left: 170px;
+    color: #FFF;
+    font-size: 32px;
+    font-family:  'Manrope', sans-serif;
+    font-weight: 800;
+}
+
+.left-button button {
+   background-color: #0D1A20;
+   border: none;
+}
+
+.right-button button{
+    background-color: #0D1A20;
+    border: none;
+}
+
+.client-info {
+    text-align: center;
+    width: 512PX;
+}
+
+.client-info img {
+    padding-bottom: 25px;
+}
+
+.client-info h1 {
+    font-size: 12px;
+    font-family:  'Manrope', sans-serif;
+    font-weight: 700;
+    color: #FFF;
+    padding-bottom: 5px;
+}
+
+.client-info h2 {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; 
+    color: #FFF;
+    padding-bottom: 10px;
+}
+
+.client-info p {
+    font-size: 16px;
+    font-family:  'Manrope', sans-serif;
+    font-weight: 500;
+    color: #FFF;
+}
+
+
+
+/*sponsors-page*/
+.sponsors-page{
+    min-height: 91px;
+    background-color: #FFFFFF;
+   
+}
+
+.sponsors-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    padding-left: 290px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    border-bottom: 1px;
+    box-shadow: 0px 0px 0px 1px rgb(0 0 0 / 30%);
+}
+
+.sponsors-container img {
+    margin-right: 40px;
+}
+
+.sponsors {
+    margin-right: 295px;
+}
+
+
+
+/*contact-page*/
+.contact-page{
+    min-height: 779px;
+    background-color: #FFFFFF;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+  .message {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-container {
+    max-width: 1172px;
+    padding-left: 290px;
+    padding-top: 50px;
+  }
+
+  .contact-container h1{
+      font-size: 15px;
+      color: #0D1A20;
+      padding-bottom: 30px;
+  }
+
+  label{
+      font-size: 14px;
+      color: #95A2AB;
+      padding-bottom: 5px;
+  }
+
+  .submit-area {
+    display: flex;
+    justify-content: space-between;
+    width: 860px;
+    align-items: center;
+  }
+ 
+  .col{
+      display: flex;
+      flex-direction: column;
+      width: 418px;
+      margin-bottom: 30px;
+    
+  }
+
+  .contact-header{
+      font-size: 32px;
+      color: #BA723D;
+      padding-left: 180px;
+      padding-top: 60px;
+  }
+
+  input {
+    line-height: 27px;
+    border-color: grey;
+    opacity: .5;
+    border: 1px solid grey;
+  }
+
+  select{ 
+    height:31px;
+    border-color: grey;
+    opacity: .5;
+    border: 1px solid grey;
+  }
+
+  span {
+    font-size: 14px;
+    color: #95A2AB;
+  }
+
+  ::placeholder{
+      color: #000000;
+      font-size: 14px;
+  }
+
+  textarea{
+      color: #95A2AB;
+      background-color: #F4F4F4;
+      width: 860px;
+      height: 169px;
+      margin-bottom: 20px;
+      border-color: grey;
+      opacity: .5;
+      border: 1px solid grey;
+  }
+
+  input[type="checkbox"] {
+    position: absolute;
+    left: -9999px;
+  }
+
+  .agree label {
+      color: #000;
+  }
+
+  .side-label {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer;
+  }
+
+  .side-label::before, .side-label::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .side-label::before {
+    display: block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #000;  
+  }
+
+  input:focus + .side-label::before {
+    border-color: #000;
+  }
+
+  .side-label::after {
+    display: none;
+    width: 12px;
+    height: 12px;
+    margin-top: 1.5px;
+    margin-left: 2px;;
+    background-color: #000;
+  }
+
+  input:checked + .side-label::after {
+    display: block;
+  }
+
+  .submit-area button{
+    height: 44px;
+    width: 213px;
+    border-radius: 5px;
+    background-color: #BA723D;
+    color: white;
+    border: none;
+    display: flex;
+    padding-left: 20%;
+    padding-top: 13px;
+  }
+
+  .submit-area p {
+    padding-left: 10px;
+    font-size: 10px;
+    padding-top: 3px;
+  }
+  
+
+  
+
+/*footer-page*/
+.last-page{
+    min-height: 249px;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-header{
+    display: flex;
+    align-items: center;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.footer-container img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.footer-container p{
+    padding: 0;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-family:  'Manrope', sans-serif;
+    font-weight: 700;
+}
+
+.footer-container li{
+    list-style: none;
+    margin-right: 25px;
+    font-size: 15px;
+    font-family:  'Manrope', sans-serif;
+    font-weight: 500;
+    padding-left: 20px;
+    
+}
+
+.footer-container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons{
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    color: #BA723D;
+    
+}
+
+.fa-weixin:before {
+    content: "\f1d7";
+    padding: 10px;
+}
+
+.footer{
+  width: 100%;
+  background-color: #BA723D;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer h1{
+    font-size: 14px;
+    font-family:  'Manrope', sans-serif;
+    font-weight: 500;
+}
+
