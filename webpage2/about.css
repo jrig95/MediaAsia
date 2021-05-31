@@ -26,8 +26,33 @@ nav {
     justify-content: space-between;
     /* height: 48px; */
     padding-top: 20px;
+    position: relative;
     
 }
+
+nav ul{
+    margin:0;
+    padding: 0;
+}
+
+nav .logo-container p{
+    margin-right: 592px;
+}
+
+nav .logo-header{
+    padding-right: 100px;
+}
+
+.fixed-nav #nav{
+    position: fixed;
+    padding: 0;
+}
+
+#nav {
+    background-color: #F8CCAB;
+}
+
+
 
 nav ul{
     display: flex;
@@ -135,6 +160,7 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     margin-bottom: 10px;
+    position: sticky;
 }
 
 .sub-header nav{
@@ -448,18 +474,47 @@ header {
   input {
     line-height: 27px;
     border-color: grey;
-    opacity: .5;
-    border: 1px solid grey;
+    border: 1px solid rgba(0, 0, 0, .1);
+    outline:none;
+    padding-left: 5px;
   }
+
+  
+
+  input[type="password" i] {
+    position: absolute;
+    top: 3813px;
+    width: 418px;
+  }
+
+  input[type="date"]::-webkit-calendar-picker-indicator{
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 2px;
+    filter: invert(66%) sepia(15%) saturate(5356%) hue-rotate(338deg) brightness(81%) contrast(74%);
+    
+  }
+
+  
 
   select{ 
     height:31px;
     border-color: grey;
-    opacity: .5;
-    border: 1px solid grey;
+    border-color: grey;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, .1);
+    appearance: none;
+    background-image: url('images/dropdown.png');
+	background-position: 98% center;
+	background-repeat: no-repeat;
+	outline: none;
+    cursor: pointer;
+    padding-left: 5px;
   }
 
-  span {
+ 
+
+  form p {
     font-size: 14px;
     color: #95A2AB;
   }
@@ -467,6 +522,7 @@ header {
   ::placeholder{
       color: #000000;
       font-size: 14px;
+      outline: none;
   }
 
   textarea{
@@ -476,9 +532,32 @@ header {
       height: 169px;
       margin-bottom: 20px;
       border-color: grey;
-      opacity: .5;
-      border: 1px solid grey;
+      border: 1px solid rgba(0, 0, 0, .1);
+      outline: none;
+      padding-left: 5px;
+    padding-top: 5px;
+    overflow: auto;
   }
+
+  textarea::placeholder{
+      color:#95A2AB;
+      font-size: 14px;
+  }
+
+  #phone::placeholder {
+      color: grey;
+  }
+
+  #phone:focus{
+      border: 1px solid #0057FF;
+      color: black;
+  }
+
+  #phone:focus::placeholder{
+      color: black;
+  }
+
+  
 
   input[type="checkbox"] {
     position: absolute;
@@ -528,6 +607,7 @@ header {
   }
 
   .submit-area button{
+    position: relative;
     height: 44px;
     width: 213px;
     border-radius: 5px;
@@ -535,15 +615,111 @@ header {
     color: white;
     border: none;
     display: flex;
-    padding-left: 20%;
+    padding-left: 13%;
     padding-top: 13px;
+    cursor: pointer;
+    transition: all ease 0.5s;
   }
+
+  .submit-button h1{
+      color: white;
+  }
+
+  button[type="submit"] {
+	border-radius: 10px;
+	will-change: transform;
+	transition: all .2s ease;
+	cursor: pointer;
+	font-size: 16px;
+  }
+    
+        .loader {
+            border-right: 2px solid #ffffff;
+            animation: loader .4s linear infinite;
+        }
+        .success {
+            font-size: 14px;
+            color: #ffffff;
+            align-items: center;
+            padding-left: 85px;
+        }
+
+        @keyframes loader {
+            0% {
+                transform: rotateZ(0);
+            }
+            100% {
+                transform: rotateZ(360deg);
+            }
+        }
+
+    
+    
+
+    
 
   .submit-area p {
     padding-left: 10px;
     font-size: 10px;
     padding-top: 3px;
   }
+
+  .column1{
+    margin-top: 2px;
+  }
+
+  #form{
+    display: flex;
+    flex-direction: column;
+    width: 418px;
+    margin-bottom: 14px;
+  }
+  
+
+  #form.invalid input{
+      border: 1px solid red;
+  }
+
+  .wrap{
+    display: flex;
+    flex-direction: column;
+    width: 418px;
+  }
+
+  .wrap label{
+    position: absolute;
+    top: 3792px;
+  }
+
+  #phone {
+      color: grey;
+  }
+
+     /* {
+    position: absolute;
+    right: 368px;
+    top: 3818px;
+    cursor: pointer;
+    transform: translate(0, -50%);
+    top: 3826px;
+    color: #BA723D;
+  } */
+  .fa, .fas {
+    font-weight: 900;
+    position: absolute;
+    right: 368px;
+    top: 3818px;
+    cursor: pointer;
+    transform: translate(0, -50%);
+    top: 3826px;
+    color: #BA723D;
+}
+  .fas {
+    color: "#BA723D";
+  }
+
+
+
   
 
   

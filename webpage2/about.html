@@ -16,6 +16,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
         <script src="https://kit.fontawesome.com/d8a48e42c3.js" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	</script>
 </head>
 <body>
@@ -23,7 +24,7 @@
 		<div class="page1">
 			<div class="nav-container">
 				<div class="wrapper">
-					<nav>
+					<nav id="nav">
 						<div class="logo-container">
 							<img alt="mini doge" src="images/miniDoge.png">
 							<div>
@@ -189,7 +190,7 @@
 				<div class='column'>
 					<div class='column2'>
 						<div class="col span-1-of-3">
-							<label>* Country</label> <select id="categories" name="Category">
+							<label>* Country</label> <select id="categories" name="Category" type="categories">
 								<option disabled selected value="">
 									Input
 								</option>
@@ -213,18 +214,24 @@
 								</option>
 							</select>
 						</div>
-						<div class="col span-1-of-3">
-							<label for="start">* Email</label> <input id="email" name="Email" placeholder="Your email" required="" type="email">
-						</div>
-						<div class="col span-1-of-3">
-							<label for="password">* Password</label> <input id="pass" name="password" required="" type="password">
+			
+						<form id="form" action="">
+							<label for="start">* Email</label> <input href="#!" id="email" name="" placeholder="Your email" type="text" onkeydown="validation()">
+							<p id="text"></p>
+						</form>
+
+						<div class="wrap">
+							<label for="password">* Password</label> <input id="password" placeholder="password" type="password">
+							<p>
+								<i class="fas fa-eye" aria-hidden="true" id="eye" onclick="toggle()"></i>
+							</p>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="message">
 				<label for="message">Write us a message</label> 
-				<textarea name="Message">Input</textarea>
+				<textarea name="Message" placeholder="Input"></textarea>
 			</div>
 			<div class="submit-area">
 				<form class="agree">
@@ -232,9 +239,10 @@
 						<input id="permitted" type="checkbox"> <label class="side-label" for="permitted">*I agree that my data will be collected</label>
 					</section>
 				</form>
-				<div class="submit button">
-					<button>Submit contact form
-					<p>&#9654;</p></button>
+				<div class="submit-button">
+					<button class="button" type="submit">
+					<h1 class="button__text">Submit contact form </h1>
+					<p class="button__text">&#9654;</p></button>
 				</div>
 			</div>
 		</div>
