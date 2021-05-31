@@ -12,7 +12,7 @@ Project gallery jquery took me 2 hours to get everything set up and correct.
 PAGE 2
 HTML and CSS took me about 8 hours. Got more used to it and was going faster.
 
-STICKY HEADER took me 3 hours, mostly trying to figure out how to get the nav bar to sticky to the below element; wasn't able to finish in time..
+STICKY HEADER took me 3 hours, mostly trying to figure out how to get the nav bar to sticky to the below element; wasn't able to finish in time.
 
 CLIENT infinite scroll spent 2 hours researching this but was unsuccessful with REACT
 
