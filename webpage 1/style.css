@@ -165,6 +165,37 @@ header p{
     max-width: 100%; 
 }
 
+.project-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    background-size: cover;
+    background: url("images/buttonprojectdefault.svg") no-repeat;
+}
+
+
+
+.project-button:hover{
+    background: url("images/buttonprojecthover.svg") no-repeat;
+}
+
+.project-button:focus {
+    background: url("images/buttonprojectpressed.svg") no-repeat;
+}
+
+.project-button:focus img{
+    filter: brightness(0) invert(1);
+}
+
+
+.project-button:hover img{
+    filter:brightness(0) invert(1);
+}
+
+
+
+
+
 
 
 .card-container{
@@ -330,22 +361,88 @@ nav .logo-container2 p {
     font-weight: 400;
 }
 
-.grid-container {
+.gallery {
+    width: 330px;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .gallery li { 
+    display: none;
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+  }
+  
+
+
+
+  .grid-container ul {
     display: grid;
-    grid-template-columns: 278px 278px 278px;
-    grid-template-rows: 220px;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    grid-template-rows: 268px;
     justify-items: center;
-    row-gap: 60px;
-    column-gap: 30px;
-    padding-left: 300px;
-    
+    row-gap: 38px;
+    column-gap: 23px;
+    padding-left: 20%;
+  }
+
+  .gallery img {
+      height:278px;
+      width: 278px;
+  }
+
+  .more{
+    font-size: 16px;
+    font-family:  'Manrope', sans-serif;
+    font-weight: 800;
+    padding-left: 27px;
+    padding-top: 8px;
+    padding-right: 27px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    background-color: #BA723D;
+    color: white;
+    border: none;
+    width: 136px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 685px;
+    margin-bottom: 10px;
 }
 
-.grid-container img{
-    width: 100%;
+.less{
+    font-size: 16px;
+    font-family:  'Manrope', sans-serif;
+    font-weight: 800;
+    padding-left: 27px;
+    padding-top: 8px;
+    padding-right: 27px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    background-color: #BA723D;
+    color: white;
+    border: none;
+    width: 136px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 685px;
 }
 
-.see-more{
+.see-more h1{
+    font-size: 24px;
+    font-family:  'Manrope', sans-serif;
+    font-weight: 700;
+    color: #BA723D;
+    padding-bottom: 30px;
+    padding-left: 30rem;
+    padding-top: 3rem;
+}
+
+
+/* .see-more{
     align-items: center;
     text-align: center;
     padding-top: 136px;
@@ -359,7 +456,7 @@ nav .logo-container2 p {
     padding-bottom: 30px;
 }
 
-.see-more button{
+.more button{
     font-size: 16px;
     font-family:  'Manrope', sans-serif;
     font-weight: 800;
@@ -376,7 +473,7 @@ nav .logo-container2 p {
 .see-more button:focus{
     border: none;
     outline: none;
-}
+} */ 
 
 /* page4*/
 

@@ -12,6 +12,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
         <script src="https://kit.fontawesome.com/d8a48e42c3.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
         <div class="pages">
@@ -95,7 +96,9 @@
                                             <p>12M views, 45k generated</p> 
                                         </div>
                                         <div class="right-button">
-                                            <img  src="images/rightB.png"  alt="right button">
+                                            <button class="project-button">
+                                            <img  src="images/buttonprojectdefault.svg"  alt="right button">
+                                        </button>
                                         </div>
                                     </div>
                                 </li>
@@ -110,7 +113,9 @@
                                             <p>12M views, 45k generated</p> 
                                         </div>
                                         <div class="right-button">
-                                            <img  src="images/rightB.png"  alt="right button">
+                                            <button class="project-button">
+                                                <img  src="images/rightB.png"  alt="right button">
+                                            </button>
                                         </div>
                                     </div>
                                 </li>
@@ -125,7 +130,9 @@
                                             <p>12M views, 45k generated</p> 
                                         </div>
                                         <div class="right-button">
-                                            <img  src="images/rightB.png"  alt="right button">
+                                            <button class="project-button">
+                                                <img  src="images/rightB.png"  alt="right button">
+                                            </button>
                                         </div>
                                     </div>
                                 </li>
@@ -205,21 +212,46 @@
         </div>
 
         <div class="grid-container">
-            <div class="grid-box"><img src="images/dogepic.png"/></div>
-            <div class="grid-box"><img src="images/dogepic.png"/></div>
-            <div class="grid-box"><img src="images/dogepic.png"/></div>
-            <div class="grid-box"><img src="images/dogepic.png"/></div>
-            <div class="grid-box"><img src="images/dogepic.png"/></div>
-            <div class="grid-box"><img src="images/dogepic.png"/></div>
-            <div class="grid-box"><img src="images/dogepic.png"/></div>
-            <div class="grid-box"><img src="images/dogepic.png"/></div>
-            <div class="grid-box"><img src="images/dogepic.png"/></div>
-          </div>
-
+            <ul class="gallery">
+              <li><img src="images/dogepic.png" /></li>
+              <li><img src="images/dogelay.png" /></li>
+              <li><img src="images/dogetoy.png" /></li>
+              <li><img src="images/dogepic.png" /></li>
+              <li><img src="images/dogelay.png" /></li>
+              <li><img src="images/dogetoy.png" /></li>
+              <li><img src="images/dogepic.png" /></li>
+              <li><img src="images/dogelay.png" /></li>
+              <li><img src="images/dogetoy.png" /></li>
+              <li><img src="images/dogepic.png" /></li>
+              <li><img src="images/dogelay.png" /></li>
+              <li><img src="images/dogetoy.png" /></li>
+            </ul>
+          </div>  
           <div class="see-more">
+          <h1>Want to see more beautiful doge photography ?</h1>
+        </div>
+          <div class="more">Load more
+          </div>
+          <div class="less">Show less</div>
+
+        <!-- <div class="grid-container">
+            <ul class="gallery">
+                <li class="grid-box"><img src="images/dogepic.png"/></li>
+                <li class="grid-box"><img src="images/dogepic.png"/></li>
+                <li class="grid-box"><img src="images/dogepic.png"/></li>
+                <li class="grid-box"><img src="images/dogepic.png"/></li>
+                <li class="grid-box"><img src="images/dogepic.png"/></li>
+                <li class="grid-box"><img src="images/dogepic.png"/></li>
+                <li class="grid-box"><img src="images/dogepic.png"/></li>
+                <li class="grid-box"><img src="images/dogepic.png"/></li>
+                <li class="grid-box"><img src="images/dogepic.png"/></li>
+            </ul>
+          </div> -->
+
+          <!-- <div class="see-more"> 
                 <h1>Want to see more beautiful doge photography ?</h1>
                 <button>Load more</button>
-          </div>
+          </div> -->
         
     </div>
 
@@ -271,7 +303,6 @@
 
 
         <script src="main.js">
-            
         </script>
     </body>
 </html>
