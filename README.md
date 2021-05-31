@@ -18,4 +18,4 @@ CLIENT infinite scroll spent 2 hours researching this but was unsuccessful with 
 
 CONTACT FORM SUBMIT BUTTON about 2.5-3 hours, was able to get it to update to success but didn't have time to finish the loading state.
 
-I was generally able to spend 3-4 hours after work hours on the project.  I think I have A LOT to learn, this took me far longer than anticipated. I really want to learn more and become better with front-end development.
+I was generally able to spend 3-4 hours a day after work on the project.  I think I have A LOT to learn, this took me far longer than anticipated. I really want to learn more and grow as a front-end developer.
