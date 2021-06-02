@@ -204,7 +204,7 @@ header {
 
 
 /*page2*/
-.page2{
+#page2{
     min-height: 842px;
     background-color: #FBEBE0;
 }
@@ -254,7 +254,7 @@ header {
 
 /*page3*/
 
-.page3{
+#page3{
     min-height: 842px;
     background-color: #FFFFFF;
 }
@@ -310,7 +310,7 @@ header {
 
 
 /*page4*/
-.page4{
+#page4{
     min-height: 842px;
     background-color: #0D1A20;
 }
@@ -407,7 +407,7 @@ header {
 
 
 /*contact-page*/
-.contact-page{
+#contact-page{
     min-height: 779px;
     background-color: #FFFFFF;
 }
